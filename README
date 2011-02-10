@@ -1,0 +1,60 @@
+--
+Table Of Contents (TOC)
+--
+ - What you need?
+ - Installing R
+ - Using googletest to test all new code.
+ - Programming Guidelines
+
+
+
+--
+What you need?
+--
+Before you can start you must have the following things installed:
+-g++
+-boost
+-xerces
+-googletest
+
+pending:
+	-r
+	You must also have the following R libraries installed:
+	-Rcpp
+	-RInside
+
+--
+Installing R (this has caused me grief... and I'm still unsure)
+--
+
+To install the R libraries search for them on google, then download the latest one.
+After downloading them, you can install them by typing the command:
+"R CMD INSTALL Rcpp_??????????.tar.gz" Where the ???s are the version. I hit tab so bash autocompleted it.
+
+--
+Using googletest to test all new code.
+--
+http://code.google.com/p/googletest/wiki/GoogleTestPrimer
+
+All information on how to use googletest can be found by the url.
+
+The way we organize tests, is by having all test code in header files in a "test" folder. Their will also be a main.cpp file in the test folder, which will run all of the tests, only thre basics will be in that main file.
+
+the makefile has a rule to run all tests. Just run "make tests" and the tests will be compiled AND RUN.
+
+everytime new functionality is added be sure their is a test file for it and new test code written for it. The test code should follow the following rules:
+	- Using the class or filename would be a good way to organize the tests. if a file already exists that works for your tests, use it.
+	- When you write a test, write pre-requisite assert/expects, then post-requisite assert/expects. code inbetween is allowed, but their should always be post-requisites and if it's at all rational, their should be pre-requisite assert/expects.
+
+For guidelines on when to use assert or expect go with the answer to the following stack overflow question:
+http://stackoverflow.com/questions/2565299/using-assert-and-expect-in-googletest
+
+
+IMPORTANT NOTE: keep the private folder the way it is. The tests are built on it being the way it is.
+
+--
+Programming Guidelines
+--
+-Using pimpl idiom until it becomes ineffecient.
+-all function declarations will start with "throw()" unless they have a reason to throw something specifically.
+-don't write bad code or I'll get clamps to give ya the clamps!
