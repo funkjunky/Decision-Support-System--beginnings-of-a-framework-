@@ -1,0 +1,3 @@
+automatic caching for all functions. Only when we know that we want a consistant value... perhaps a wrapper function that does the caching... this way we can gaurentee nothing happens to the values.
+
+ie. CACHE(SurveySystem::allSurveyIDs). this would lock the allSurveyIDs function and fun the function and store the value. This is an object btw. Now any time CACHE(SurveySystem::allSurveyIDs) is called, we return the value stored in CACHE, which will be faster, AND it is gaurenteed to be the same value.

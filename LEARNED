@@ -1,0 +1,4 @@
+Things I've learned while programming for this:
+---
+
+-Don't even bother considering whether or not to return a const reference, just use a shared_ptr. little more code, tiniest larger overhead, but no worries about a reference becoming invalidated.

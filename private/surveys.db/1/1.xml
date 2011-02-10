@@ -1,0 +1,225 @@
+<?xml version="1.0"?>
+<survey version="2.0" id="1" read.only="yes"><status><deployed as="bbbb" by.user="Paul Preney" when="2455385.86925"/></status><content><title>Roadside Site Observation: Vehicles with Child Passengers</title>   <count>24</count>
+    <chlq type="4" id="1">
+      <qtext>Date (month)</qtext>
+      <choices>
+        <choice id="1.1">January</choice>
+        <choice id="1.2">February</choice>
+        <choice id="1.3">March</choice>
+        <choice id="1.4">April</choice>
+        <choice id="1.5">May</choice>
+        <choice id="1.6">June</choice>
+        <choice id="1.7">July</choice>
+        <choice id="1.8">August</choice>
+        <choice id="1.9">September</choice>
+        <choice id="1.10">October</choice>
+        <choice id="1.11">November</choice>
+        <choice id="1.12">December</choice>
+      </choices>
+    </chlq>
+    <chlq type="4" id="2">
+      <qtext>Date (day of month)</qtext>
+      <choices>
+        <choice id="2.1">1</choice>
+        <choice id="2.2">2</choice>
+        <choice id="2.3">3</choice>
+        <choice id="2.4">4</choice>
+        <choice id="2.5">5</choice>
+        <choice id="2.6">6</choice>
+        <choice id="2.7">7</choice>
+        <choice id="2.8">8</choice>
+        <choice id="2.9">9</choice>
+        <choice id="2.10">10</choice>
+        <choice id="2.11">11</choice>
+        <choice id="2.12">12</choice>
+        <choice id="2.13">13</choice>
+        <choice id="2.14">14</choice>
+        <choice id="2.15">15</choice>
+        <choice id="2.16">16</choice>
+        <choice id="2.17">17</choice>
+        <choice id="2.18">18</choice>
+        <choice id="2.19">19</choice>
+        <choice id="2.20">20</choice>
+        <choice id="2.21">21</choice>
+        <choice id="2.22">22</choice>
+        <choice id="2.23">23</choice>
+        <choice id="2.24">24</choice>
+        <choice id="2.25">25</choice>
+        <choice id="2.26">26</choice>
+        <choice id="2.27">27</choice>
+        <choice id="2.28">28</choice>
+        <choice id="2.29">29</choice>
+        <choice id="2.30">30</choice>
+        <choice id="2.31">31</choice>
+      </choices>
+    </chlq>
+    <chlq type="4" id="3">
+      <qtext>Location Code</qtext>
+      <choices>
+        <choice id="3.1">Placeholder 1</choice>
+        <choice id="3.2">Placeholder 2</choice>
+      </choices>
+    </chlq>
+    <chlq type="4" id="4">
+      <qtext>Driver's Sex</qtext>
+      <choices>
+        <choice id="4.1">Male</choice>
+        <choice id="4.2">Female</choice>
+      </choices>
+    </chlq>
+    <chlq type="4" id="5">
+      <qtext>Driver Restrained</qtext>
+      <choices>
+        <choice id="5.1">Yes</choice>
+        <choice id="5.2">No</choice>
+        <choice id="5.3">Unsure</choice>
+      </choices>
+    </chlq>
+    <chlq type="4" id="6">
+      <qtext>Ethnicity</qtext>
+      <choices>
+        <choice id="6.1">Asian</choice>
+        <choice id="6.2">SE Asian</choice>
+        <choice id="6.3">Aboriginal</choice>
+        <choice id="6.4">Middle Eastern</choice>
+        <choice id="6.5">African Canadian</choice>
+        <choice id="6.6">Caucasian</choice>
+      </choices>
+    </chlq>
+    <tmpl type="5" id="7" min="2" max="3">
+      <title>Child</title>
+      <chlq type="4" id="7.1">
+        <qtext>Age</qtext>
+        <choices>
+          <choice id="7.1.1">&lt; 1 year</choice>
+          <choice id="7.1.2">1-3 years</choice>
+          <choice id="7.1.3">4-8 years</choice>
+          <choice id="7.1.4">9-14 years</choice>
+        </choices>
+      </chlq>
+      <chlq type="4" id="7.2">
+        <qtext>Location</qtext>
+        <choices>
+          <choice id="7.2.1">Front seat</choice>
+          <choice id="7.2.2">Back seat</choice>
+        </choices>
+      </chlq>
+      <chlq type="4" id="7.3">
+        <qtext>Restraint Type</qtext>
+        <choices>
+          <choice id="7.3.1">Not restrained</choice>
+          <choice id="7.3.2">Can't see</choice>
+          <choice id="7.3.3">Rear-facing infant seat</choice>
+          <choice id="7.3.4">Rear-facing convertible</choice>
+          <choice id="7.3.5">Forward-facing child seat</choice>
+          <choice id="7.3.6">Booster seat</choice>
+          <choice id="7.3.7">Seat belt</choice>
+        </choices>
+      </chlq>
+      <chlq type="4" id="7.4">
+        <qtext>Chest Clip At Armpit</qtext>
+        <choices>
+          <choice id="7.4.1">Yes</choice>
+          <choice id="7.4.2">No</choice>
+          <choice id="7.4.3">Can't see</choice>
+        </choices>
+      </chlq>
+      <chlq type="4" id="7.5">
+        <qtext>Straps tight</qtext>
+        <choices>
+          <choice id="7.5.1">Yes</choice>
+          <choice id="7.5.2">No</choice>
+          <choice id="7.5.3">Can't see</choice>
+        </choices>
+      </chlq>
+      <chlq type="4" id="7.6">
+        <qtext>Tether fastened</qtext>
+        <choices>
+          <choice id="7.6.1">Yes</choice>
+          <choice id="7.6.2">No</choice>
+          <choice id="7.6.3">Can't see</choice>
+        </choices>
+      </chlq>
+      <chlq type="4" id="7.7">
+        <qtext>Shoulder belt</qtext>
+        <choices>
+          <choice id="7.7.1">Yes</choice>
+          <choice id="7.7.2">No</choice>
+          <choice id="7.7.3">Can't see</choice>
+        </choices>
+      </chlq>
+      <chlq type="4" id="7.8">
+        <qtext>Lap Belt Over Hips</qtext>
+        <choices>
+          <choice id="7.8.1">Yes</choice>
+          <choice id="7.8.2">No</choice>
+          <choice id="7.8.3">Can't see</choice>
+        </choices>
+      </chlq>
+      <chlq type="4" id="7.9">
+        <qtext>straps tether or shoulder</qtext>
+        <choices>
+          <choice id="7.9.1">straps</choice>
+          <choice id="7.9.2">tether</choice>
+          <choice id="7.9.3">shoulder</choice>
+        </choices>
+      </chlq>
+    </tmpl>
+    <mcq type="1" id="8" choiceType="single">
+      <qtext>tester</qtext>
+      <choices>
+        <choice id="8.1">one</choice>
+        <choice id="8.2">twop</choice>
+        <choice id="8.3">three</choice>
+      </choices>
+    </mcq>
+    <mcq type="1" id="9" choiceType="multiple">
+      <qtext>multiple</qtext>
+      <choices>
+        <choice id="9.1">1111</choice>
+        <choice id="9.2">2222</choice>
+        <choice id="9.3">3333</choice>
+      </choices>
+    </mcq><rules>
+      <rule id="0.1" Disabled1="true" Disabled2="false">
+        <thisId>7.4</thisId>
+        <depends>
+          <on id="0.1.0">Rear-facing infant seat</on>
+        </depends>
+        <ofId>7.3</ofId>
+      </rule>
+      <rule id="0.2" Disabled1="true" Disabled2="false">
+        <thisId>7.5</thisId>
+        <depends>
+          <on id="0.2.0">Rear-facing infant seat</on>
+        </depends>
+        <ofId>7.3</ofId>
+      </rule>
+      <rule id="0.3" Disabled1="true" Disabled2="false">
+        <thisId>7.6</thisId>
+        <depends>
+          <on id="0.3.0">Forward-facing child seat</on>
+        </depends>
+        <ofId>7.3</ofId>
+      </rule>
+      <rule id="0.4" Disabled1="true" Disabled2="false">
+        <thisId>7.7</thisId>
+        <depends>
+          <on id="0.4.0">Seat belt</on>
+        </depends>
+        <ofId>7.3</ofId>
+      </rule>
+      <rule id="0.5" Disabled1="true" Disabled2="false">
+        <thisId>7.8</thisId>
+        <depends>
+          <on id="0.5.0">Seat belt</on>
+        </depends>
+        <ofId>7.3</ofId>
+      </rule>
+      <rule id="0.6" Disabled1="true" Disabled2="false">
+        <thisId>7.9</thisId>
+        <depends>
+          <on id="0.6.0">Rear-facing infant seat</on>
+        </depends>
+        <ofId>7.3</ofId>
+      </rule></rules></content><history><created by.user="Paul Preney" when="2455377.86161"/><set.id new.id="1" by.user="Paul Preney" when="2455377.86161"/><set.read.only value="yes" by.user="Paul Preney" when="2455377.86223"/><deployed as="Child Seat" by.user="Paul Preney" when="2455377.86223"/><set.read.only value="yes" by.user="Paul Preney" when="2455378.15829"/><deployed as="Child Seat" by.user="Paul Preney" when="2455378.15829"/><redacted as="Child Seat" by.user="Paul Preney" when="2455378.18038"/><set.read.only value="no" by.user="Paul Preney" when="2455378.18038"/><set.read.only value="yes" by.user="Paul Preney" when="2455378.18138"/><deployed as="aaaaaaaa" by.user="Paul Preney" when="2455378.18138"/><redacted as="aaaaaaaa" by.user="Paul Preney" when="2455378.18235"/><set.read.only value="no" by.user="Paul Preney" when="2455378.18235"/><set.read.only value="yes" by.user="Paul Preney" when="2455378.18391"/><deployed as="aaaaaaaa" by.user="Paul Preney" when="2455378.18391"/><redacted as="aaaaaaaa" by.user="Paul Preney" when="2455378.1856"/><set.read.only value="no" by.user="Paul Preney" when="2455378.1856"/><set.read.only value="yes" by.user="Paul Preney" when="2455378.18581"/><deployed as="aaaaaa" by.user="Paul Preney" when="2455378.18581"/><redacted as="aaaaaa" by.user="Paul Preney" when="2455378.19084"/><set.read.only value="no" by.user="Paul Preney" when="2455378.19084"/><set.read.only value="yes" by.user="Paul Preney" when="2455378.19113"/><deployed as="aaaaa" by.user="Paul Preney" when="2455378.19113"/><redacted as="aaaaa" by.user="Paul Preney" when="2455378.21192"/><set.read.only value="no" by.user="Paul Preney" when="2455378.21192"/><set.read.only value="yes" by.user="Paul Preney" when="2455378.21267"/><deployed as="aaaaa" by.user="Paul Preney" when="2455378.21267"/><redacted as="aaaaa" by.user="Paul Preney" when="2455378.37249"/><set.read.only value="no" by.user="Paul Preney" when="2455378.37249"/><set.read.only value="yes" by.user="Paul Preney" when="2455378.37396"/><deployed as="bbbbbb" by.user="Paul Preney" when="2455378.37396"/><redacted as="bbbbbb" by.user="Paul Preney" when="2455378.3806"/><set.read.only value="no" by.user="Paul Preney" when="2455378.3806"/><set.read.only value="yes" by.user="Paul Preney" when="2455378.39706"/><deployed as="bbbbb" by.user="Paul Preney" when="2455378.39706"/><redacted as="bbbbb" by.user="Paul Preney" when="2455385.86815"/><set.read.only value="no" by.user="Paul Preney" when="2455385.86815"/><set.read.only value="yes" by.user="Paul Preney" when="2455385.86925"/><deployed as="bbbb" by.user="Paul Preney" when="2455385.86925"/></history></survey>

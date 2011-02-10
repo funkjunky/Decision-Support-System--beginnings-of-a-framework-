@@ -1,0 +1,352 @@
+<?xml version="1.0"?>
+<survey version="2.0" id="5" read.only="yes"><status><deployed as="roadside" by.user="Paul Preney" when="2455379.2017361"/></status><content><title>Roadside Interview - 2010</title>   <count>43</count>
+    <chlq type="4" id="1">
+      <qtext>Driver sex</qtext>
+      <choices>
+        <choice id="1.1">Male</choice>
+        <choice id="1.2">Female</choice>
+      </choices>
+    </chlq>
+    <chlq type="4" id="2">
+      <qtext>Vehicle type</qtext>
+      <choices>
+        <choice id="2.1">Car</choice>
+        <choice id="2.2">Van</choice>
+        <choice id="2.3">Minivan</choice>
+        <choice id="2.4">Pickup</choice>
+        <choice id="2.5">SUV</choice>
+        <choice id="2.6">Motorcycle</choice>
+      </choices>
+    </chlq>
+    <chlq type="4" id="3">
+      <qtext>Occupant configuration</qtext>
+      <choices>
+        <choice id="3.1">Driver only</choice>
+        <choice id="3.2">Family (with kids)</choice>
+        <choice id="3.3">1 passenger, diff. sex</choice>
+        <choice id="3.4">1 passenger, same sex</choice>
+        <choice id="3.5">Group, diff. sex</choice>
+        <choice id="3.6">Group, same sex</choice>
+      </choices>
+    </chlq>
+    <chlq type="4" id="4">
+      <qtext>Driver seat belt use</qtext>
+      <choices>
+        <choice id="4.1">Yes</choice>
+        <choice id="4.2">No</choice>
+      </choices>
+    </chlq>
+    <chlq type="4" id="5">
+      <qtext>Passenger seat belt use</qtext>
+      <choices>
+        <choice id="5.1">Yes</choice>
+        <choice id="5.2">No</choice>
+      </choices>
+    </chlq>
+    <chlq type="4" id="6">
+      <qtext>1a) Where are you coming from?</qtext>
+      <choices>
+        <choice id="6.1">Work</choice>
+        <choice id="6.2">Home</choice>
+        <choice id="6.3">Friend/Relative</choice>
+        <choice id="6.4">Restaurant</choice>
+        <choice id="6.5">Bar / Pub / Nightclub</choice>
+        <choice id="6.6">Movie</choice>
+        <choice id="6.7">Sports / Recreation</choice>
+        <choice id="6.8">Other</choice>
+      </choices>
+    </chlq>
+    <text type="3" id="7">
+      <qtext>Q1a is "Other": please write in where you are coming from.</qtext>
+    </text>
+    <chlq type="4" id="8">
+      <qtext>1b) How long ago did you leave there?</qtext>
+      <choices>
+        <choice id="8.1">0 to 5 minutes</choice>
+        <choice id="8.2">5 to 10 minutes</choice>
+        <choice id="8.3">10 to 15 minutes</choice>
+        <choice id="8.4">15 to 20 minutes</choice>
+        <choice id="8.5">20 to 25 minutes</choice>
+        <choice id="8.6">25 to 30 minutes</choice>
+        <choice id="8.7">30 to 35 minutes</choice>
+        <choice id="8.8">35 to 40 minutes</choice>
+        <choice id="8.9">40 to 45 minutes</choice>
+        <choice id="8.10">45 to 50 minutes</choice>
+        <choice id="8.11">50 to 55 minutes</choice>
+        <choice id="8.12">55 minutes to 1 hour</choice>
+        <choice id="8.13">1 to 2 hours</choice>
+        <choice id="8.14">2 to 3 hours</choice>
+        <choice id="8.15">3 to 4 hours</choice>
+        <choice id="8.16">4 to 5 hours</choice>
+        <choice id="8.17">More than 5 hours</choice>
+      </choices>
+    </chlq>
+    <chlq type="4" id="9">
+      <qtext>1c) Where are you going to?</qtext>
+      <choices>
+        <choice id="9.1">Work</choice>
+        <choice id="9.2">Home</choice>
+        <choice id="9.3">Friend / Relative</choice>
+        <choice id="9.4">Restaurant</choice>
+        <choice id="9.5">Bar / Pub / Nightclub</choice>
+        <choice id="9.6">Movie</choice>
+        <choice id="9.7">Sports / Recreation</choice>
+        <choice id="9.8">Other</choice>
+      </choices>
+    </chlq>
+    <text type="3" id="10">
+      <qtext>Q1c is "Other": please write in where you are going to.</qtext>
+    </text>
+    <chlq type="4" id="11">
+      <qtext>2) What year were you born?</qtext>
+      <choices>
+        <choice id="11.1">2010</choice>
+        <choice id="11.2">2009</choice>
+        <choice id="11.3">2008</choice>
+      </choices>
+    </chlq>
+    <chlq type="4" id="12">
+      <qtext>2a) Do you have a NOVICE or LEARNER license?</qtext>
+      <choices>
+        <choice id="12.1">Yes</choice>
+        <choice id="12.2">No</choice>
+      </choices>
+    </chlq>
+    <chlq type="4" id="13">
+      <qtext>3) How likely do you think it is, that if a person drives after drinking too much, they will be stopped by the police?</qtext>
+      <choices>
+        <choice id="13.1">not at all likely</choice>
+        <choice id="13.2">not very likely</choice>
+        <choice id="13.3">slightly likely</choice>
+        <choice id="13.4">somewhat likely</choice>
+        <choice id="13.5">likely</choice>
+        <choice id="13.6">very likely</choice>
+        <choice id="13.7">extremely likely</choice>
+      </choices>
+    </chlq>
+    <chlq type="4" id="14">
+      <qtext>4) How likely do you think it is, that if a person drives after using drugs, they will be stopped by the police?</qtext>
+      <choices>
+        <choice id="14.1">not at all likely</choice>
+        <choice id="14.2">not very likely</choice>
+        <choice id="14.3">slightly likely</choice>
+        <choice id="14.4">somewhat likely</choice>
+        <choice id="14.5">likely</choice>
+        <choice id="14.6">very likely</choice>
+        <choice id="14.7">extremely likely</choice>
+      </choices>
+    </chlq>
+    <nri-text type="2" id="15">
+      <qtext>Now, after question 4, I have a question about alcohol.</qtext>
+    </nri-text>
+    <chlq type="4" id="16">
+      <qtext>5) Have you had anything to drink in the last 12 hours?</qtext>
+      <choices>
+        <choice id="16.1">Yes</choice>
+        <choice id="16.2">No</choice>
+      </choices>
+    </chlq>
+    <chlq type="4" id="17">
+      <qtext>How long ago did you finish your last drink? (Fill in hours here, minutes in next question.)</qtext>
+      <choices>
+        <choice id="17.1">0 hours</choice>
+        <choice id="17.2">1 hour</choice>
+        <choice id="17.3">2 hours</choice>
+        <choice id="17.4">3 hours</choice>
+        <choice id="17.5">4 hours</choice>
+        <choice id="17.6">5 hours</choice>
+        <choice id="17.7">6 hours</choice>
+        <choice id="17.8">7 hours</choice>
+        <choice id="17.9">8 hours</choice>
+        <choice id="17.10">9 hours</choice>
+        <choice id="17.11">10 hours</choice>
+        <choice id="17.12">More than 10 hours</choice>
+      </choices>
+    </chlq>
+    <chlq type="4" id="18">
+      <qtext>How long ago did you finish your last drink? (Fill in minutes here, hours in previous question.)</qtext>
+      <choices>
+        <choice id="18.1">0 minutes</choice>
+        <choice id="18.2">5 minutes</choice>
+        <choice id="18.3">10 minutes</choice>
+        <choice id="18.4">15 minutes</choice>
+        <choice id="18.5">20 minutes</choice>
+        <choice id="18.6">25 minutes</choice>
+        <choice id="18.7">30 minutes</choice>
+        <choice id="18.8">35 minutes</choice>
+        <choice id="18.9">40 minutes</choice>
+        <choice id="18.10">45 minutes</choice>
+        <choice id="18.11">50 minutes</choice>
+        <choice id="18.12">55 minutes</choice>
+      </choices>
+    </chlq>
+    <text type="3" id="19">
+      <qtext>BAC</qtext>
+    </text>
+    <chlq type="4" id="20">
+      <qtext>6) Where did you do most of your drinking tonight?</qtext>
+      <choices>
+        <choice id="20.1">Bar</choice>
+        <choice id="20.2">Restaurant</choice>
+        <choice id="20.3">Own home</choice>
+        <choice id="20.4">Friend / Relative's house</choice>
+        <choice id="20.5">Other</choice>
+      </choices>
+    </chlq>
+    <text type="3" id="21">
+      <qtext>Q6 is "Other": please specify where you did most of your drinking tonight.</qtext>
+    </text>
+    <chlq type="4" id="22">
+      <qtext>IF REFUSED: Interview / BAC / Saliva / Drug Ques.</qtext>
+      <choices>
+        <choice id="22.1">Language</choice>
+        <choice id="22.2">In a hurry</choice>
+        <choice id="22.3">Not interested</choice>
+        <choice id="22.4">Civil rights</choice>
+        <choice id="22.5">Fear of prosecution</choice>
+        <choice id="22.6">Other</choice>
+      </choices>
+    </chlq>
+    <text type="3" id="23">
+      <qtext>IF REFUSED is "Other": please specify the reason.</qtext>
+    </text>
+    <chlq type="4" id="24">
+      <qtext>Coupon</qtext>
+      <choices>
+        <choice id="24.1">Yes</choice>
+        <choice id="24.2">No</choice>
+      </choices>
+    </chlq><rules>
+      <rule id="0.1" Disabled1="true" Disabled2="false">
+        <thisId>7</thisId>
+        <depends>
+          <on id="0.1.0">Other</on>
+        </depends>
+        <ofId>6</ofId>
+      </rule>
+      <rule id="0.2" Disabled1="true" Disabled2="false">
+        <thisId>8</thisId>
+        <depends>
+          <on id="0.2.0">-1</on>
+        </depends>
+        <ofId>6</ofId>
+      </rule>
+      <rule id="0.3" Disabled1="true" Disabled2="false">
+        <thisId>10</thisId>
+        <depends>
+          <on id="0.3.0">Other</on>
+        </depends>
+        <ofId>9</ofId>
+      </rule>
+      <rule id="0.4" Disabled1="true" Disabled2="false">
+        <thisId>9</thisId>
+        <depends>
+          <on id="0.4.0">-1</on>
+        </depends>
+        <ofId>8</ofId>
+      </rule>
+      <rule id="0.5" Disabled1="true" Disabled2="false">
+        <thisId>11</thisId>
+        <depends>
+          <on id="0.5.0">-1</on>
+        </depends>
+        <ofId>9</ofId>
+      </rule>
+      <rule id="0.6" Disabled1="true" Disabled2="false">
+        <thisId>12</thisId>
+        <depends>
+          <on id="0.6.0">-1</on>
+        </depends>
+        <ofId>11</ofId>
+      </rule>
+      <rule id="0.7" Disabled1="true" Disabled2="false">
+        <thisId>13</thisId>
+        <depends>
+          <on id="0.7.0">-1</on>
+        </depends>
+        <ofId>12</ofId>
+      </rule>
+      <rule id="0.8" Disabled1="true" Disabled2="false">
+        <thisId>14</thisId>
+        <depends>
+          <on id="0.8.0">-1</on>
+        </depends>
+        <ofId>13</ofId>
+      </rule>
+      <rule id="0.9" Disabled1="true" Disabled2="false">
+        <thisId>16</thisId>
+        <depends>
+          <on id="0.9.0">-1</on>
+        </depends>
+        <ofId>14</ofId>
+      </rule>
+      <rule id="0.10" Disabled1="true" Disabled2="false">
+        <thisId>17</thisId>
+        <depends>
+          <on id="0.10.0">Yes</on>
+        </depends>
+        <ofId>16</ofId>
+      </rule>
+      <rule id="0.11" Disabled1="true" Disabled2="false">
+        <thisId>18</thisId>
+        <depends>
+          <on id="0.11.0">Yes</on>
+        </depends>
+        <ofId>16</ofId>
+      </rule>
+      <rule id="0.12" Disabled1="true" Disabled2="false">
+        <thisId>19</thisId>
+        <depends>
+          <on id="0.12.0">No</on>
+        </depends>
+        <ofId>16</ofId>
+      </rule>
+      <rule id="0.13" Disabled1="true" Disabled2="false">
+        <thisId>21</thisId>
+        <depends>
+          <on id="0.13.0">Other</on>
+        </depends>
+        <ofId>20</ofId>
+      </rule>
+      <rule id="0.14" Disabled1="true" Disabled2="false">
+        <thisId>23</thisId>
+        <depends>
+          <on id="0.14.0">Other</on>
+        </depends>
+        <ofId>22</ofId>
+      </rule>
+      <rule id="0.20" Disabled1="true" Disabled2="false">
+        <thisId>5</thisId>
+        <depends>
+          <on id="0.20.0">Family (with kids)</on>
+        </depends>
+        <ofId>3</ofId>
+      </rule>
+      <rule id="0.21" Disabled1="true" Disabled2="false">
+        <thisId>5</thisId>
+        <depends>
+          <on id="0.21.0">1 passenger, diff. sex</on>
+        </depends>
+        <ofId>3</ofId>
+      </rule>
+      <rule id="0.22" Disabled1="true" Disabled2="false">
+        <thisId>5</thisId>
+        <depends>
+          <on id="0.22.0">1 passenger, same sex</on>
+        </depends>
+        <ofId>3</ofId>
+      </rule>
+      <rule id="0.23" Disabled1="true" Disabled2="false">
+        <thisId>5</thisId>
+        <depends>
+          <on id="0.23.0">Group, diff. sex</on>
+        </depends>
+        <ofId>3</ofId>
+      </rule>
+      <rule id="0.24" Disabled1="true" Disabled2="false">
+        <thisId>5</thisId>
+        <depends>
+          <on id="0.24.0">Group, same sex</on>
+        </depends>
+        <ofId>3</ofId>
+      </rule></rules></content><history><created by.user="Paul Preney" when="2455379.1995486"/><set.id new.id="5" by.user="Paul Preney" when="2455379.1995486"/><set.read.only value="yes" by.user="Paul Preney" when="2455379.1997801"/><deployed as="roadside" by.user="Paul Preney" when="2455379.1997801"/><redacted as="roadside" by.user="Paul Preney" when="2455379.2003241"/><set.read.only value="no" by.user="Paul Preney" when="2455379.2003241"/><set.read.only value="yes" by.user="Paul Preney" when="2455379.2017361"/><deployed as="roadside" by.user="Paul Preney" when="2455379.2017361"/></history></survey>

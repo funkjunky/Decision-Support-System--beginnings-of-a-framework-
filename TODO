@@ -1,0 +1,66 @@
+TODO:
+-define the code that can be defined without the xml parser.
+	-define all non-xml functions for files with ACTUAL code
+			dataProcessingServer.cpp to unaryTally.hpp
+		-define stage1impl.cpp
+		-define stage1.cpp
+		-define surveyupdaterimpl.cpp
+		-define relfunctor.cpp
+		-define the relObjs
+			-define relTest
+			-define unarytally
+		-define mapping.cpp
+		-figure out json.hpp
+		-define JSONify parts of everything that uses it
+		-define processjson.cpp
+	
+	-create CSS for HTML
+	-define webpage files: displayHTML.hpp & dataHTML.hpp
+	-create JS basics (necessary for interface) for editing pages
+	-interface in JS visualizations code
+	-add JS for better basic usability on all pages (maybe more CSS as well).
+
+-restructure code...
+	Currently I have classes that implement a number of things.
+	Instead they should be basic and in order to implement those things
+	You should require external things (functions or classes)
+	... components I suppose...
+
+Once I have access to Pauls xml parser:
+
+
+DONE:
+(??/??/??)-some basic skeletons written for header classes.
+(??/??/??)-implement our current test code into googletests
+-Create skeleton files for various files
+	(26/08/10)-dataProcessingServer.cpp
+	(27/08/10)-stage1.hpp
+					-mapping, variable, relation
+	(27/08/10)-relationsList.hpp
+	(27/08/10)-stage2.hpp
+	(27/08/10)-RelFunctor.hpp (generic Functor)
+		(27/08/10)-AboutID.hpp (stores what information it can about an ID)
+		(27/08/10)-class PResult
+						(stores a single processed result from a functor)
+		(27/08/10)-relTest.hpp (tests all capabilities of a relation hpp file/class)
+		(27/08/10)-unaryTally.hpp (literally just tallies a single variable.)
+						//example of unaryTally in effect: ((a uT) (b uT) (c UT))
+	(27/08/10)-processJSON.hpp
+		(27/08/10)-research JSON interpretation options for C++
+	(27/08/10)-displayHTML.hpp	//view and edit display pages
+	(27/08/10)-dataHTML.hpp		//edit data, and choose visualization pages
+	(28/08/10)-create forgotten alert.hpp
+	(28/08/10)-get all header files to compile.
+
+-define the code that can be defined without the xml parser.
+	(28/08/10)-define all non-xml functions for files with SUDO code.
+		(28/08/10)-define stage1impl.cpp
+		(28/08/10)-define stage1.cpp
+		(28/08/10)-define surveyupdater.cpp
+		(28/08/10)-define surveyupdaterimpl.cpp
+		(28/08/10)-define the relObjs
+			(28/08/10)-define relTest
+			(28/08/10)-define unarytally
+		(28/08/10)-define relfunctor.cpp
+		(28/08/10)-define mapping.cpp
+		(28/08/10)-define processjson.cpp
